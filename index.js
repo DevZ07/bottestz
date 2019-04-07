@@ -6,7 +6,7 @@ const client = new Discord.Client();
 
 
 
-const token =("NTA4NjEyMzY2MTI1MTA1MTUz.D27upA.YpOvlrbamZWtnXijEHGTXj37268");
+const token =(process.env.TOKEN);
 let prefix = "+";
 
 
